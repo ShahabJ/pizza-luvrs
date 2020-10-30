@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk')
 
-AWS.config.update({ region: 'us-east-2' })
+AWS.config.update({ region: 'us-west-2' })
 
 const dynamodb = new AWS.DynamoDB.DocumentClient()
 
